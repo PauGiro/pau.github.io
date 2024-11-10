@@ -1,0 +1,85 @@
+body{
+    background-color: #D3D3D3;
+    color: #000000  ;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    margin-top: 0px;
+    text-decoration: underline;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+}
+.header h1{
+    font-size: 50px;
+    text-decoration: underline;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.perfil{
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.info table{
+    background-color: #EDEDED;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 5px;
+}
+.info th, tr{
+    text-align: left;   
+}
+.container{
+    display: flex;
+    justify-content:center;
+    font-size: large;
+}
+nav{
+    position: absolute;
+    left: -15px;
+    background-color: #EDEDED;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+section{
+    max-width: 510px;
+}
+.barra-progreso {
+    width: 80%; 
+    background-color: #EDEDED; 
+    border-radius: 25px; 
+    overflow: hidden; /
+}
+
+.progreso {
+    height: 15px; 
+    background-color: #0b2c50; 
+    text-align: center; 
+    line-height: 15px; 
+}
+.sobremi {
+    text-align: justify;
+}
+a{
+    color: #0b2c50;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
